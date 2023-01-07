@@ -65,7 +65,14 @@ body {
     line-height: 1.4em;
     color: rgba(255, 255, 255, 0.75);
 }
-
+/* RJV Code */
+.normtext p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: rgba(255, 255, 255, 0.75);
+}
 .prompt-container {
     place-content: flex-end center;
     align-items: center;
@@ -93,7 +100,44 @@ body {
     flex: 0 0 auto;
     flex-flow: column nowrap;
     gap: 10px;
-    height: 150px;
+    /*height: 150px; << this was commented as we want to reduce height*/ 
+    height: 50px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    width: 610px;
+    max-width: 1200px;
+    will-change: transform;
+    overflow: auto;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    text-align: start;
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    text-transform: none;
+}
+
+/*RJV Prompt box for column names and numbers */
+.prompt2-box {
+    border-bottom-width: 1px;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    place-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    gap: 10px;
+    height: 15px;
     overflow: hidden;
     padding: 20px;
     position: relative;
