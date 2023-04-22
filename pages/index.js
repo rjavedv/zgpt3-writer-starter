@@ -69,7 +69,7 @@ const Home = () => {
           />
           {/* RJV Code */}
           <div className="normtext">
-            <p> Number of columns in a spreadsheet: (eg 2 or 3 or whatever</p>
+            <p> Number of columns in a spreadsheet: (eg 2 or 3 or whatever)</p>
           </div>
           <textarea
             className="prompt2-box"
